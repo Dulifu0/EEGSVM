@@ -1,0 +1,63 @@
+{
+  "n_subjects": 88,
+  "label_column": "Group",
+  "classes": [
+    "A",
+    "C",
+    "F"
+  ],
+  "accuracy_mean": 0.5320261437908497,
+  "accuracy_std": 0.12702963703619835,
+  "macro_f1_mean": 0.5165606180312062,
+  "macro_f1_std": 0.1355071998234246,
+  "confusion_matrix": [
+    [
+      21,
+      5,
+      10
+    ],
+    [
+      4,
+      16,
+      9
+    ],
+    [
+      10,
+      3,
+      10
+    ]
+  ],
+  "classification_report": {
+    "A": {
+      "precision": 0.6,
+      "recall": 0.5833333333333334,
+      "f1-score": 0.5915492957746479,
+      "support": 36.0
+    },
+    "C": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5517241379310345,
+      "f1-score": 0.6037735849056604,
+      "support": 29.0
+    },
+    "F": {
+      "precision": 0.3448275862068966,
+      "recall": 0.43478260869565216,
+      "f1-score": 0.38461538461538464,
+      "support": 23.0
+    },
+    "accuracy": 0.5340909090909091,
+    "macro avg": {
+      "precision": 0.5371647509578544,
+      "recall": 0.52328002665334,
+      "f1-score": 0.5266460884318976,
+      "support": 88.0
+    },
+    "weighted avg": {
+      "precision": 0.5552769070010449,
+      "recall": 0.5340909090909091,
+      "f1-score": 0.5414927551852877,
+      "support": 88.0
+    }
+  }
+}
